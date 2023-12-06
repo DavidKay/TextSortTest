@@ -7,13 +7,12 @@
 
 
 ## Acceptance Criteria
-
+The result of the operation should adhere to the following:
 | Acceptance Criteria | Input paragraph | Output |
 |:------------------- | ---------------:| ------:|
-|The result of the operation should order the words alphabetically|`Zebra Apple`|`Apple Zebra`|
+|The words should be ordered alphabetically|`Zebra Apple`|`Apple Zebra`|
 |Words should also be ordered from upper-case to lower-case|`Zebra aPple Apple`|`Apple aPple Zebra`|
-|All `.,;'` characters should be removed|`Zebra, 
-Apple`|`Apple Zebra`|
+|All `.,;'` characters should be removed|`Zebra, Apple`|`Apple Zebra`|
 |Do not remove duplicate words|`Zebra Zebra`|`Zebra Zebra`|
 
 
