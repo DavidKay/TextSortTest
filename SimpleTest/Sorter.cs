@@ -4,14 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//simple test
-
-//Test 
-
-
 namespace SimpleTest
 {
-    public static partial class MyTest
+    public static class Sorter
     {
         public static string CalculateTotal(string someInput)
         {

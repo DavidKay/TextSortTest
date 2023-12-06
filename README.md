@@ -1,18 +1,28 @@
-# PROJECT NAME - TextABCSort
+# TextSortTest
 
 ## User Story
+* As a statistician
+* I want to analyse a paragraph of text
+* So I can see all the words ordered alphabetically
 
-* as a text analyser
-* I want to reorder and reformat a paragraph of text as follows:
-    *	words should be reordered Alphabetically -  (Zerbra Abba) becomes (Abba Zebra)
-    *	words should **THEN** be ordered from upper case to lower case. Note point 1 takes preference. (aBba Abba) becomes (Abba aBba)
-    * remove all (.,;') chars. (aBba, Abba) becomes (Abba aBba)
-    *	Do not remove duplicate words
-* so that I can easily read though the words alphabetically and easily see all the variants of different case
 
-## Notes
-* The user story test is most important. Other notes are of secondary importance.
-* if needed additional unit tests may be added
-* insure you are happy with the project structure
-* take into account we may want to swap console logger with event logger in future
-* although this is a simple test, please complete the code as you would for a production release
+## Acceptance Criteria
+The result of the operation should order the words alphabetically.
+> `Zebra Apple` becomes `Apple Zebra`
+
+Words should also be ordered from upper-case to lower-case.
+> `Zebra aPple Apple` becomes `Apple aPple Zebra`
+
+All `.,;'` characters should be removed.
+> `Zebra, Apple` becomes `Apple Zebra`
+
+Do not remove duplicate words.
+> `Zebra Zebra` remains as `Zebra Zebra`
+
+## Hints and tips
+* Please approach this as you would a pair-programming exercise. Talk about what you are doing and why. It's more important for us to understand your approach and thought process than your code.
+* Using the internet is allowed and so is asking for help, but please don't use any AI.
+* Everything in the solution can (and probably should) be changed.
+* Demonstration of OOP and SOLID principles is important, even though it could be considered over-engineering for this simple task.
+* Demonstration of solution architecture and project structure is also important.
+* Ensure the code quality and style meets your own expectations (including tests).
