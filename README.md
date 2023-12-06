@@ -1,9 +1,11 @@
 # TextSortTest
 
 ## User Story
-* As a statistician
-* I want to analyse a paragraph of text
-* So I can see all the words ordered alphabetically
+> As a statistician
+> 
+> I want to analyse a paragraph of text
+> 
+> So I can see all the words ordered alphabetically
 
 
 ## Acceptance Criteria
