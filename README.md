@@ -7,6 +7,14 @@
 
 
 ## Acceptance Criteria
+
+| Criteria | Input paragraph | Output |
+|----------|----------------:|-------:|
+|The result of the operation should order the words alphabetically|`Zebra Apple`|`Apple Zebra`|
+|Words should also be ordered from upper-case to lower-case|`Zebra aPple Apple`|`Apple aPple Zebra`|
+|All `.,;'` characters should be removed|`Zebra, Apple`|`Apple Zebra`|
+|Do not remove duplicate words|`Zebra Zebra`|`Zebra Zebra`|
+
 The result of the operation should order the words alphabetically.
 > `Zebra Apple` becomes `Apple Zebra`
 
