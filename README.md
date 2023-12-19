@@ -20,6 +20,6 @@ The result of the operation should adhere to the following:
 * Please approach this as you would a pair-programming exercise. Talk about what you are doing and why. It's more important for us to understand your approach and thought process than your code.
 * Using the internet is allowed and so is asking for help, but please don't use any AI.
 * Everything in the solution can (and probably should) be changed.
-* Demonstration of OOP and SOLID principles is important, even though it could be considered over-engineering for this simple task.
+* Demonstration of OOP and SOLID principles is important.
 * Demonstration of solution architecture and project structure is also important.
 * Ensure the code quality and style meets your own expectations (including tests).
